@@ -563,4 +563,14 @@
                                 `Negara : ${negara}`;
 
                 const phoneNumber = '6283150287016';
-                const waLink = `https://wa.me/$
+                const waLink = `https://wa.me/${phoneNumber}?text=${message}`;
+                window.open(waLink, '_blank');
+            });
+
+            // Inisialisasi
+            updateUI();
+            emailInput.placeholder = 'wangjasteb@gmail.com';
+        })();
+    </script>
+</body>
+</html>
